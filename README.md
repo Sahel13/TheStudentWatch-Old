@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /read/
 ---
 
 Website built to showcase who I am.
