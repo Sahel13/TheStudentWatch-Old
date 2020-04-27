@@ -1,7 +1,1 @@
----
-layout: page
-title: Read Me
-permalink: /read/
----
-
-Website built to showcase who I am.
+<h1>Website built to showcase who I am.</h1>
