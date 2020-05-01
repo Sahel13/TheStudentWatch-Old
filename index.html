@@ -1,0 +1,14 @@
+---
+layout: base_generic
+---
+
+<h1 id="latest-posts-heading">Latest Posts</h1>
+
+{% for post in site.posts %}
+	<div class="jumbotron postList shadow">
+		<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+		<h1>{{ post.title }}</h1>
+		<p>{{ post.excerpt }}</p>
+		<p><a class="btn" role="button" href="{{ post.url }}">Read on</a></p>
+	</div>
+{% endfor %}

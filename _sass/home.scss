@@ -1,0 +1,46 @@
+$theme-color: #c62641;
+
+#latest-posts-heading {
+  font-family: times;
+  margin: 2rem;
+  padding: 1em;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: grey;
+}
+
+.post-display {
+  margin: 2rem;
+  border: 1px solid $theme-color
+}
+
+@media (max-width: 576px) {
+  .post-display {
+    margin: 2rem 0;
+  }
+}
+
+.jumbotron {
+  background-color: rgba(233,236,239,0);
+  margin: 0px;
+
+  h1 {
+    font-size: 2rem;
+	font-family: abel;
+	text-transform: uppercase;
+	margin: 1rem;
+	font-weight: 600;
+  }
+
+  p {
+	margin: 1.5rem;
+  }
+
+  .btn {
+	background-color: $theme-color;
+	color: white;
+	margin-top: 1rem;
+	opacity: 0.90;
+	width: 10rem;
+  }
+}
