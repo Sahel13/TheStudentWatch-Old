@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Last Post"
+title:  "Lastest Post"
 date:   2020-05-01 10:15:00 +0530
 ---
 
