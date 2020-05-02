@@ -21,7 +21,7 @@ main {
 .jumbotron {
   padding: 2rem;
   margin-top: $spacing;
-  background-color: white;
+  background-color: $bg-color;
   margin-bottom: 0;
   border: 1px solid $theme-color;
   border-radius: 10px;
