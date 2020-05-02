@@ -9,3 +9,11 @@
 		font-size: 1.1rem;
 	}
 }
+
+/* Content takes the full width in small screens */
+@media (max-width: 576px) {
+  .postDetail {
+  	padding-right: 1rem;
+  	padding-left: 1rem;
+  }
+}
