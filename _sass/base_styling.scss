@@ -1,0 +1,28 @@
+body {
+  font-family: Abel, sans-serif;
+  background-color: $bg-color;
+}
+
+main {
+  width: 80%;
+  margin: 1rem auto;
+  padding: $spacing;
+  border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+  main {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.jumbotron {
+  padding: 2rem;
+  margin-top: $spacing;
+  background-color: white;
+  margin-bottom: 0;
+  border: 1px solid $theme-color;
+  border-radius: 10px;
+}

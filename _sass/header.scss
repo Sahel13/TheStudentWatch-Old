@@ -1,0 +1,24 @@
+.navbar {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+  }
+
+  a {
+    color: grey;
+    text-decoration: none;
+  }
+}

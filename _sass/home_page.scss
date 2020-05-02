@@ -1,0 +1,35 @@
+#latest-posts-heading {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: $theme-color;
+  text-align: center;
+}
+
+.postList {
+
+  span {
+    color: $sup-color;
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-family: abel;
+    text-transform: uppercase;
+    margin: 1rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    background-color: $sup-color;
+    color: white;
+    margin-top: 1rem;
+    opacity: 0.90;
+    width: 10rem;
+  }
+}
