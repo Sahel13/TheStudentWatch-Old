@@ -17,16 +17,6 @@ main {
   }
 }
 
-a {
-  &:link {
-    color: $theme-color;
-  }
-  &:hover {
-    color: $theme-color;
-    text-decoration: none;
-  }
-}
-
 .jumbotron {
   padding: 2rem;
   margin-top: $spacing;
@@ -34,4 +24,7 @@ a {
   margin-bottom: 0;
   border: 1px solid $theme-color;
   border-radius: 10px;
+  a {
+    color: grey;
+  }
 }
