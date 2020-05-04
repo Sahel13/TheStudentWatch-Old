@@ -27,8 +27,7 @@ social:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-webmaster_verifications:
-  google: u3tHLNdoomEqsLbjRtaM1saurxjxNdWDKvVBhzNwvBY
+google_site_verification: u3tHLNdoomEqsLbjRtaM1saurxjxNdWDKvVBhzNwvBY
 
 # Build settings
 markdown: kramdown
