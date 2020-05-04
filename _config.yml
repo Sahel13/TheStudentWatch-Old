@@ -16,8 +16,7 @@
 title: Sahel's Blog
 email: sahelm13miqbal@gmail.com
 tagline: Blog managed by Sahel Mohammad Iqbal.
-description: >- # this means to ignore newlines until "baseurl:"
-  Blog managed by Sahel Mohammad Iqbal.
+description: Blog managed by Sahel Mohammad Iqbal.
 author: Sahel Mohammad Iqbal
 social:
   name: Sahel Mohammad Iqbal
