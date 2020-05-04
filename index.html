@@ -9,6 +9,6 @@ layout: base_generic
 		<span>{{ post.date | date: "%b %-d, %Y" }}</span>
 		<h1>{{ post.title }}</h1>
 		<p>{{ post.excerpt }}</p>
-		<p><a class="btn" role="button" href="{{ post.url }}">Read on</a></p>
+		<a class="btn" role="button" href="{{ post.url }}">Read on</a>
 	</div>
 {% endfor %}

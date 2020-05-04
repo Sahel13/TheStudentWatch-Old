@@ -13,7 +13,7 @@ main {
 @media (max-width: 576px) {
   main {
     width: 100%;
-    @include sideMargins(0)
+    @include sidePadding(0)
   }
 }
 
@@ -21,7 +21,7 @@ main {
   font-size: 2.5rem;
   color: $theme-color;
   text-align: center;
-  @include sideMargins(1rem)
+  @include sidePadding(1rem)
 }
 
 .jumbotron {

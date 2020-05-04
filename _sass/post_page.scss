@@ -1,12 +1,13 @@
 .postDetail {
 	p {
 		font-size: 1.1rem;
+		text-indent: 3rem;
 	}
 }
 
 /* Content takes the full width in small screens */
 @media (max-width: 576px) {
   .postDetail {
-  	@include sideMargins(1rem)
+  	@include sidePadding(1rem)
   }
 }
