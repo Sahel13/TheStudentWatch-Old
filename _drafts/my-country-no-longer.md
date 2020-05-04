@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  My country no longer?
+
 excerpt: The first post on this blog. It introduces one of the major themes I intend to pursue in the future.
+
 description: An article on the degrading secularism in India written by a student.
 ---
 
