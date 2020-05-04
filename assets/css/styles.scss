@@ -6,6 +6,11 @@ $theme-color: orange;
 $sup-color: red;
 $spacing: 2.3rem;
 
+@mixin sideMargins($value) {
+	padding-right: $value;
+	padding-left: $value;
+}
+
 @import "header";
 @import "base_styling";
 @import "home_page";
