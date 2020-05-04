@@ -1,10 +1,10 @@
 body {
-  font-family: 'Open-Sans', sans-serif;
+  font-family: Times New Roman;
   background-color: $bg-color;
 }
 
 main {
-  width: 80%;
+  width: 70%;
   margin: 1rem auto;
   padding: $spacing;
   border-radius: 20px;
@@ -19,7 +19,7 @@ main {
 
 .main_heading {
   font-size: 2.5rem;
-  color: $theme-color;
+  color: grey;
   text-align: center;
   @include sidePadding(1rem)
 }
