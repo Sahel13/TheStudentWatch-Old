@@ -4,7 +4,8 @@
 $bg-color: white;
 $theme-color: orange;
 $sup-color: red;
-$spacing: 2.3rem;
+$spacing: 2rem;
+$reduced_spacing: 0.5rem;
 
 @mixin sidePadding($value) {
 	padding-right: $value;
@@ -16,3 +17,4 @@ $spacing: 2.3rem;
 @import "home_page";
 @import "post_page";
 @import "footer";
+@import "subscribe_page";

@@ -14,6 +14,17 @@
 /* Content takes the full width in small screens */
 @media (max-width: 576px) {
   .postDetail {
-  	@include sidePadding(1rem)
+  	@include sidePadding(1rem);
+
+  	p {
+  		font-size: 1rem;
+  	}
   }
+}
+
+#post_heading {
+  font-size: 2.5rem;
+  color: grey;
+  text-align: center;
+  @include sidePadding(1rem);
 }

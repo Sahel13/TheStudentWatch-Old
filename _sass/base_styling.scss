@@ -13,15 +13,18 @@ main {
 @media (max-width: 576px) {
   main {
     width: 100%;
-    @include sidePadding(0)
+    @include sidePadding(0);
   }
 }
 
-.main_heading {
-  font-size: 2.5rem;
-  color: grey;
-  text-align: center;
-  @include sidePadding(1rem)
+a {
+  &:link {
+    color: $theme-color;
+  }
+  &:hover {
+    color: $theme-color;
+    text-decoration: none;
+  }
 }
 
 .jumbotron {
