@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "My country no longer?"
-excerpt: "The first post on this blog. It introduces one of the major themes I intend to pursue in the future."
+title:  My country no longer?
+excerpt: The first post on this blog. It introduces one of the major themes I intend to pursue in the future.
+description: An article on the degrading secularism in India written by a student.
 ---
 
 To make my first ever blog post also my most polarizing one was not a hard decision for me. Ideally, what you want to do is start off with content that is easy to digest for everyone so that you don't scare potential readers away. At least, that's what I read on the internet. But then again, the only reason I'm starting a blog is to put my thoughts and ideas out, so that I may find like-minded people. I'm pretty sure I can't do that if I'm actively censoring my words. And so I've decided to just wing it. I hope that when you get to the end of this article, you come off either liking this very much or hating this very much. As long as you feel something, then maybe I haven't entirely failed in what I've set out to achieve. 

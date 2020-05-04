@@ -1,6 +1,7 @@
 ---
 layout: post
 title: About Me
+description: About page for Sahel's blog
 permalink: /about/
 ---
 
