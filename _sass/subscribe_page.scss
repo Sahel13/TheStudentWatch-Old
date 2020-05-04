@@ -1,0 +1,21 @@
+form {
+	text-align: center;
+
+	input {
+		padding: 0.5rem;
+		border: 2px solid $theme-color;
+		border-radius: 10px;
+		margin: 0.8rem;
+		font-size: 1.1rem;
+	}
+
+	input[type=email] {
+		width: 230px;
+	}
+
+	input[type=submit] {
+		padding: 0.5rem;
+		color: white;
+		background-color: $theme-color;
+	}
+}
