@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  My premature nationality crises
+title:  My premature nationality crisis
 date: 2020-05-05 07:00:00 +0530
 excerpt: My personal experiences with the degrading religious tolerance and freedom of expression in India.
 description: An article about a student's experiences with the degrading religious tolerance and freedom of expression in India.
