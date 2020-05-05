@@ -14,7 +14,7 @@
 /* Content takes the full width in small screens */
 @media (max-width: 576px) {
   .postDetail {
-  	@include sidePadding(1rem);
+  	@include sidePadding(1.5rem);
 
   	p {
   		font-size: 1.1rem;
