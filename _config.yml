@@ -23,7 +23,7 @@ social:
     - https://github.com/Sahel13
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sahel13.github.io." # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thestudentwatch.live" # the base hostname & protocol for your site, e.g. http://example.com
 
 google_site_verification: u-VL7dWVi940hqe1E87EPUUvZvfVFXCQwP61HeHJ_r0
 
