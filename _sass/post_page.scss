@@ -14,12 +14,11 @@
 /* Content takes the full width in small screens */
 @media (max-width: 576px) {
   .postDetail {
-  	@include sidePadding(3rem);
+  	@include sidePadding(2rem);
 
   	p {
-      color: blue;
   		font-size: 1.1rem;
-      font-weight: 600;
+      font-weight: 500;
   	}
   }
 }
