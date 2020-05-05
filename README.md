@@ -1,1 +1,1 @@
-<h1>Website built to host my blog.</h1>
+The Student Watch is a website for the younger generation to engage in political discourse.
