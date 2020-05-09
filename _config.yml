@@ -25,6 +25,8 @@ social:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thestudentwatch.live" # the base hostname & protocol for your site, e.g. http://example.com
 
+permalink: pretty
+
 google_site_verification: u-VL7dWVi940hqe1E87EPUUvZvfVFXCQwP61HeHJ_r0
 
 # Build settings
