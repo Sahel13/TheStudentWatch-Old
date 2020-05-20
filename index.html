@@ -1,5 +1,4 @@
 ---
-layout: base_generic
 title: Home
 ---
 
@@ -9,6 +8,8 @@ title: Home
 	<div class="jumbotron postList shadow">
 		<span>{{ post.date | date: "%b %-d, %Y" }}</span>
 		<h1>{{ post.title }}</h1>
+<!-- 		{% assign author = site.authors | where: 'short_name', post.author | first %}
+		<p class="author"><a href="{{ author.url }}">By {{ author.name }}</a></p> -->
 		<p>{{ post.excerpt }}</p>
 		<a class="btn" role="button" href="{{ post.url }}">Read on</a>
 	</div>

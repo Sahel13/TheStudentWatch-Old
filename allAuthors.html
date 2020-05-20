@@ -1,0 +1,15 @@
+---
+title: Authors
+permalink: /authors/
+description: See the authors who have contributed to The Student Watch.
+---
+
+<h1 class="other_headings">Authors</h1>
+
+{% for author in site.authors %}
+	<div class="jumbotron postList shadow">
+		<h1>{{ author.name }}</h1>
+		<p>{{ author.content }}</p>
+		<a class="btn" role="button" href="{{ author.url }}">View articles</a>
+	</div>
+{% endfor %}

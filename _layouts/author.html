@@ -1,0 +1,17 @@
+---
+layout: base_generic
+---
+<div class="authorPageHeader">
+	<h1 class="other_headings">{{ page.name }}</h1>
+	<p>{{ content }}</p>
+</div>
+
+{% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+{% for post in filtered_posts %}
+	<div class="jumbotron postList shadow">
+		<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+		<h1>{{ post.title }}</h1>
+		<p>{{ post.excerpt }}</p>
+		<a class="btn" role="button" href="{{ post.url }}">Read on</a>
+	</div>
+{% endfor %}

@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The Student Watch
-email: sahelm13miqbal@gmail.com
+email: thestudentwatch@gmail.com
 description: The Student Watch is a website for the younger generation to engage in political discourse.
 author: Sahel Mohammad Iqbal
 social:
@@ -28,6 +28,26 @@ url: "https://thestudentwatch.live" # the base hostname & protocol for your site
 permalink: /:title/
 
 google_site_verification: u-VL7dWVi940hqe1E87EPUUvZvfVFXCQwP61HeHJ_r0
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "base_generic"
 
 # Build settings
 markdown: kramdown

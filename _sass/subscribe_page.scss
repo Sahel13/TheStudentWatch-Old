@@ -19,3 +19,8 @@ form {
 		background-color: $theme-color;
 	}
 }
+
+.formSuccess, .response {
+	text-align: center;
+	display: none;
+}

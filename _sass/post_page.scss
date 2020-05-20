@@ -7,14 +7,26 @@
 
 #post_date {
 	text-align: center;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	font-weight: 300;
+  color: grey;
+}
+
+#post_author {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+
+  a {
+    color: grey;
+    text-decoration: none;
+  }
 }
 
 /* Content takes the full width in small screens */
 @media (max-width: 576px) {
   .postDetail {
-  	@include sidePadding(2rem);
+  	@include sidePadding(1.5rem);
 
   	p {
   		font-size: 1.1rem;
@@ -24,7 +36,7 @@
 
 #post_heading {
   font-size: 2rem;
-  color: grey;
+  color: $theme-color;
   text-align: center;
   @include sidePadding(1rem);
 }
