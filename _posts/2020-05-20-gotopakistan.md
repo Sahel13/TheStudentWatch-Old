@@ -1,6 +1,6 @@
 ---
 title: '#GoToPakistan?'
-date: 2020-05-20 00:00:00 +0530
+date: 2020-05-21 00:00:00 +0530
 excerpt: A cursory look at the consequences of speaking your mind in India. Sequel to the first article.
 description: A cursory look at the consequences of speaking your mind in India.
 author: sahel
