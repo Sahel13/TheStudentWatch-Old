@@ -1,6 +1,5 @@
 ---
 title: Subscribe
-layout: base_generic
 permalink: /subscribe/
 description: Subscribe to The Student Watch to get notified when new articles are posted.
 ---
@@ -12,10 +11,16 @@ description: Subscribe to The Student Watch to get notified when new articles ar
 		If you like the content on the website, and would like to be notified when new articles are posted, you can subscribe <a href="/feed.xml">via RSS</a> or by email by submitting the form below:
 	</p>
 
-	<form target="_blank" method="post" action="https://script.google.com/macros/s/AKfycbwv3vTJ5XirLDmycVo5l3cGkRyJ2_SW75rC2OJx/exec">
+	<form class="subscribe" onsubmit="onSubscribe()" target="response" method="post" action="https://script.google.com/macros/s/AKfycbyzZR82qQItf8E7t9hP_XHlUVHTQIgfO7SH-4hj1aCdXIwis-M/exec">
 		<input class="shadow" type="email" name="email" placeholder="Email">
 		<input class="shadow" type="submit" value="Submit">
 	</form>
+
+	<iframe class="response" name="response"></iframe>
+
+	<p class="formSuccess"><em>Your subscription was successful.</em></p>
+
+	<script src="/assets/scripts/subscribe.js"></script>
 
 	<p>
 		If neither of those options tickles your fancy, you could simply drop in from time to time. Keep in mind that the website may be hard to find as it is new, so you might want to bookmark it.

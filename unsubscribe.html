@@ -1,6 +1,5 @@
 ---
 title: Unsubscribe
-layout: base_generic
 permalink: /unsubscribe/
 description: Unsubscibe to The Student Watch if you would no longer like to be notified when new articles are posted.
 ---
@@ -11,9 +10,15 @@ description: Unsubscibe to The Student Watch if you would no longer like to be n
 	<p>
 		If you no longer want to be notified when new articles are posted, please enter your email address in the form below and click Unsubscribe.
 	</p>
-
-	<form target="_blank" method="post" action="https://script.google.com/macros/s/AKfycbypLf-B10W7UJfoGXWQvvUpQiMKv9BXI2wXC2sUmA/exec">
+<!-- 
+	<form class="subscribe" onsubmit="onSubscribe()" target="response" method="post" action="https://script.google.com/macros/s/AKfycbzLiSyIHXlM7mfTrySTXtVjJL2eDytORiJYTwCQ9uV2NF0HIzv_/exec">
 		<input class="shadow" type="email" name="email" placeholder="Email">
 		<input class="shadow" type="submit" value="Unsubscibe">
-	</form>
+	</form> -->
+
+		<iframe class="response" name="response"></iframe>
+
+	<p class="formSuccess"><em>You have unsubscribed successfully.</em></p>
+
+	<script src="/assets/scripts/subscribe.js"></script>
 </div>

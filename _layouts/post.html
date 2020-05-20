@@ -3,6 +3,10 @@ layout: base_generic
 ---
 
 <h1 id="post_heading">{{ page.title }}</h1>
+<!-- 
+{% assign author = site.authors | where: 'short_name', page.author | first %}
+<h2 id="post_author"><a href="{{ author.url }}">By {{ author.name }}</a></h2>
+ -->
 <h2 id="post_date">{{ page.date | date: "%b %-d, %Y" }}</h2>
 
 <div class="jumbotron postDetail shadow">
