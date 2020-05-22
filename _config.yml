@@ -17,10 +17,17 @@ title: The Student Watch
 email: thestudentwatch@gmail.com
 description: The Student Watch is a website for the younger generation to engage in political discourse.
 author: Sahel Mohammad Iqbal
+
 social:
   name: Sahel Mohammad Iqbal
   links:
     - https://github.com/Sahel13
+
+twitter:
+  username: '@sahel_iqbal'
+  card: summary_large_image
+
+logo: '/assests/images/reducedLogo.png/'
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thestudentwatch.live" # the base hostname & protocol for your site, e.g. http://example.com
