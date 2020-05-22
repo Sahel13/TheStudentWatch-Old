@@ -12,7 +12,7 @@
 
     <link rel="shortcut icon" type="image/png" href="/assets/images/logo.png"/>
     <link rel="apple-touch-icon" href="/assets/images/logo.png">
-    <meta property="og:image" content="https://thestudentwatch.live/assets/images/logo.png" />
+    <meta property="og:image" content="/assets/images/logo.png" />
 
     {% feed_meta %}
     {% seo title=false %}
@@ -21,6 +21,9 @@
 <body>
     <header>
         <nav class="navbar">
+            <a class="navbar-brand" href="/">
+                <img src="/assets/images/logo.png" height="50" class="d-inline-block align-top" alt="The Student Watch">
+            </a>
             <ul>
                 {% for item in site.data.navigation %}
                 <li><a href="{{ item.link }}">{{ item.name }}</a></li>
