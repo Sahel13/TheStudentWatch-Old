@@ -4,7 +4,7 @@ date: 2020-05-05 07:00:00 +0530
 excerpt: My personal experiences with the degrading religious tolerance and freedom of expression in India.
 description: An article about a student's experiences with the degrading religious tolerance and freedom of expression in India.
 author: sahel
-image: /assests/images/reducedLogo.png/
+image: /assests/images/logo.png/
 ---
 
 To make my first ever website article also my most polarizing one was not a hard decision for me. Ideally, what you want to do is start off with content that is easy to digest for everyone so that you don't scare potential readers away. At least, that's what I read on the internet. But then again, the only reason I'm starting this website is to put my thoughts and ideas out so that I may find like-minded people, and then give them the oppurtunity to do the same. I won't be able to do that if I'm actively censoring my words. So here goes.
