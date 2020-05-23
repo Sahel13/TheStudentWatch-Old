@@ -16,15 +16,16 @@
 title: The Student Watch
 email: thestudentwatch@gmail.com
 description: The Student Watch is a website for the younger generation to engage in political discourse.
-author: Sahel Mohammad Iqbal
+author: '@SahelMIqbal'
 
 social:
   name: Sahel Mohammad Iqbal
   links:
     - https://github.com/Sahel13
+    - https://twitter.com/SahelMIqbal
 
 twitter:
-  username: '@sahel_iqbal'
+  username: '@SahelMIqbal'
   card: summary
 
 logo: '/assests/images/reducedLogo.png/'
