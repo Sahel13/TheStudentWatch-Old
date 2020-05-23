@@ -4,6 +4,7 @@ date: 2020-05-20 23:00:00 +0530
 excerpt: A cursory look at the consequences of speaking your mind in India. Sequel to the first article.
 description: A cursory look at the consequences of speaking your mind in India.
 author: sahel
+image: /assests/images/logo.png/
 ---
 
 A few days back, I ran into my father as I came down for breakfast in the morning. He had read my first article, which I had published only a couple of days back. I had a hunch that he would have something to say about it, and indeed he had. To remark that he had some apprehensions would be an understatement. He told me that while he appreciated my opinion, it wasn't prudent for me to publicize it the way I had. "It's all well and good for someone sitting in America or Europe to write a piece like yours," he said, "but doing so from within the country is dangerous." He cited the example of Anand Teltumbde, a man who was arrested on false charges for speaking against the government and right-wing activists. "Stick your head down for now, and when after a few years you sit in one of those nations where the freedom of speech and expression is more than a mere phrase, then you can do as you please." That was his advice.
